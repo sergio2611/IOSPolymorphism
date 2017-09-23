@@ -16,6 +16,8 @@
 @property (getter=getStudentMajor, setter=setStudentMajor:)NSString* major;
 @property (getter=getStudentClasification, setter=setStudentClasification:) NSString* studentClasification;
 
+-(id)  initWithMajor :(NSString*) major withClasification:(NSString*) clasification;
+
 -(id) initWithParameter:(NSString*) Major
                        :(NSString*) Clasification;
 

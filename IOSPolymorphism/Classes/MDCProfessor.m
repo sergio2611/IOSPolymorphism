@@ -15,4 +15,8 @@
     [self setDepartment:Department];
     return self;
 }
+-(id) initWithTeachingSpeciality:(NSString *)speciality withDepartment:(NSString *)department{
+    [self setTeachingSpeciality:speciality];
+    [self setDepartment:department];
+    return self;}
 @end

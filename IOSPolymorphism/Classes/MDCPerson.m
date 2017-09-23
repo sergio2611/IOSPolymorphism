@@ -15,4 +15,10 @@
     [self setPersonRole:Role];
     return self;
 }
+
+-(id) initWithCampus:(NSString *)campus withRole:(NSString *)role{
+    [self setPersonCampus:campus];
+    [self setPersonRole:role];
+    return self;
+}
 @end

@@ -17,5 +17,7 @@
 @property (getter=getTeachingSpeciality, setter=setTeachingSpeciality:)NSString* teachingSpeciality;
 @property (getter=getDepartment, setter=setDepartment:)NSString* department;
 
+-(id) initWithTeachingSpeciality:(NSString* ) speciality withDepartment: (NSString*) department;
+
 -(id) initWithParameter:(NSString *)TeachingSpeciality :(NSString *)Department;
 @end

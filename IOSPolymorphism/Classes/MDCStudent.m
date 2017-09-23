@@ -16,4 +16,8 @@
     return self;
 }
 
+-(id) initWithMajor:(NSString *)major withClasification:(NSString *)clasification{
+    [self setStudentMajor:major];
+    [self setStudentClasification:clasification];
+    return self;}
 @end

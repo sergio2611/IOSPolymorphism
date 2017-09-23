@@ -17,6 +17,8 @@
 @property (getter=getPersonCampus, setter=setPersonCampus:) NSString* campus;
 @property (getter=getPersonRole, setter=setPersonRole: ) NSString* role;
 
+-(id) initWithCampus:(NSString*) campus withRole:(NSString*) role;
+
 -(id) initWithParameter:(NSString*) Campus
                        :(NSString*) Role;
 @end
